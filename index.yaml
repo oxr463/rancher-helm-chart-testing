@@ -1,9 +1,32 @@
 apiVersion: v1
 entries:
+  aws-ebs-csi-driver:
+  - apiVersion: v1
+    appVersion: 1.1.0
+    created: "2021-06-25T12:56:00.856288327-04:00"
+    description: A Helm chart for AWS EBS CSI Driver
+    digest: 0211501f969c9755adf8cf6928a765e57a441128f2aae67f39ea82af59dc3539
+    home: https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+    keywords:
+    - aws
+    - ebs
+    - csi
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: chengpan@amazon.com
+      name: leakingtapan
+    - name: krmichel
+      url: https://github.com/krmichel
+    name: aws-ebs-csi-driver
+    sources:
+    - https://github.com/kubernetes-sigs/aws-ebs-csi-driver
+    urls:
+    - https://github.com/oxr463/rancher-helm-chart-testing/aws-ebs-csi-driver-1.2.3.tgz
+    version: 1.2.3
   rancher:
   - apiVersion: v1
     appVersion: v2.5.6
-    created: "2021-03-08T13:05:43.875832086-05:00"
+    created: "2021-06-25T12:56:00.857184507-04:00"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
     digest: 43528781db0a5ee596b7790439f931c829363fda15ed341761eb704e67f690d3
     home: https://rancher.com
@@ -20,4 +43,4 @@ entries:
     urls:
     - https://github.com/oxr463/rancher-helm-chart-testing/rancher-2.5.6.tgz
     version: 2.5.6
-generated: "2021-03-08T13:05:43.87407407-05:00"
+generated: "2021-06-25T12:56:00.855211529-04:00"
